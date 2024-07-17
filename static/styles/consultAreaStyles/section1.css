@@ -1,0 +1,105 @@
+
+.questionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionPhrase{
+    margin-top: 20px;
+    width: 88%;
+    background-image: url(/assets/consultAreaAssets/Rectangle\ 6.png);
+    border-radius: 23px;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* .rectangleImage{
+    opacity: 70%;
+    width: 90%;
+    height: 640px;
+} */
+
+.questionPhraseHeader{
+    font-size: 55px;
+    padding-left: 55px;
+    padding-top: 50px;
+    color: rgb(15, 149, 202);
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgba(10, 11, 11, 0.3);
+}
+
+.sideImage{
+    margin-right: 60px;
+    height: 420px;
+}
+
+.questionSection{
+    padding-top: 50px;
+    /* padding-right: 20px; */
+    padding-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    border-radius: 50px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.textfield{
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#company-name{
+    width: 60%;
+}
+
+#your-name{
+    width: 70%;
+}
+
+#email{
+    width: 80%;
+}
+
+#description{
+    width: 80%;
+}
+
+.buttonContainer{
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 20px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    height: 38px;
+    padding: 10px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
